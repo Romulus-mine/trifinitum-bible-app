@@ -1,0 +1,96 @@
+body {font-family: trebuchet ms;
+      background-color: #FFEFD5;
+      margin-left: 10pt;
+      margin-right: 10pt;
+	  font-size: 1.6vw;}
+
+p {margin-left: 20pt;
+   margin-right: 20pt;}
+
+p.bib {margin-left: 40pt;}
+
+p.close {margin-top: 5pt;
+         margin-bottom: 5pt;
+         padding: 0;
+         text-indent: 10pt;}
+
+p.hang {margin: 5pt 20pt 5pt 40pt;
+        text-indent: -20pt;}
+
+p.note  {margin-top: 5pt;
+         margin-bottom: 5pt;
+         font-size: 90%;}
+
+table {border-collapse: collapse; margin-left: auto; margin-right: auto}
+
+table.a {margin-left: 20pt;
+         margin-right: 20pt;}
+
+table.indent {margin-left: 40pt;}
+
+table.navbar {font-size: 90%;
+              margin-right: 10pt;
+              margin-left: 10pt;
+              border-style: none;}
+
+td {text-align: left}
+
+ul {margin: 0 20pt 0 40pt; padding: 0; list-style: outside}
+
+ol {margin-left: 50pt; margin-right: 20pt; padding: 0}
+
+h1, h2, h3 {font-weight: normal; text-align: center; margin-left: 20pt; margin-right: 20pt;}
+
+h4, h5 {text-align: center; margin-left: 20pt; margin-right: 20pt;}
+
+h1 {font-size: 170%}
+
+sup {line-height: 0; font-size: 80%}
+
+a:link {color: teal}
+a:visited {color: maroon}
+a:hover {color: red}
+a:active {color: maroon}
+
+
+a.navbar {text-decoration: none;
+          font-weight: bold;
+          text-transform: capitalize;}
+
+
+hr {height: 2px;
+    border-style: none;
+    color: black;
+    background-color: black;
+    margin-left: 10pt;
+    margin-right: 10pt;}
+
+hr.note {height: 2px;
+        border-style: none;
+        color: silver;
+        background-color: silver;
+        margin-left: 20pt;
+        margin-right: 20pt;}
+
+div.sidebar {border: solid thin gray;
+             padding: 7pt;
+             margin: 7pt 10pt 7pt 10pt;
+             text-align: center;
+             font-size: 90%;
+             background: url(cream1.jpg);
+             float: left;
+             width: 25%;}
+
+.right {text-align: right;}
+
+.center {text-align: center; margin-left: auto; margin-right: auto}
+
+.greek {font-family: symbol;}
+
+.grk {line-height: 100%; font-family: sbl greek, palatino linotype, arial unicode ms, gentium, athena, galilee unicode gk}
+
+.heb {line-height: 100%; font-family: sbl hebrew}
+
+.serif {font-family: Georgia, Times New Roman, serif}
+
+.smallcaps {font-variant: small-caps; font-size: 110%}

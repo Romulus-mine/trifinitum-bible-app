@@ -1,0 +1,87 @@
+.jspHorizontalBar,
+.jspVerticalBar
+{
+	background: none;
+}
+
+
+.jspTrack
+{
+	background: url(../../images/track.png) repeat-y top center;
+	/*background-color:#f3f0df;
+	border:1px solid #efe9d2; */
+}
+
+
+.scroll-pane .jspDrag
+{
+	background:  transparent;
+	border: .15vw solid #6699FF;
+
+	-moz-border-radius: 1vw;
+	-webkit-border-radius: 1vw;
+	border-radius: 1vw;
+}
+
+.jspTrack .jspActive,
+.jspTrack .jspHover,
+.jspDrag:hover
+{
+	background: transparent;
+}
+
+.scroll-pane .jspArrow
+{
+	background: url('images/arrow_up_down_7777ff.png') no-repeat;
+    background-size: 5.2vw 2.6vw;
+	background-position: -.5vw 0;
+	border: 0 solid red;
+}
+
+.scroll-pane .jspVerticalBar>.jspActive,
+.scroll-pane .jspArrow:hover
+{
+	background-image: url('images/arrow_up_down_ddd.png');
+    background-size: 5.2vw 2.6vw;
+	background-position: -.4vw 0;
+}
+
+.jspVerticalBar>.jspDisabled,
+.jspVerticalBar>.jspDisabled:hover,
+.scroll-pane .jspHorizontalBar>.jspDisabled,
+.scroll-pane .jspHorizontalBar>.jspDisabled:hover
+{
+	background-color: transparent;
+	background-image: url('images/ui-icons_cd0a0a_256x240.png');
+	background-position: -4px 0;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 1.8vw;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: .7vw;
+}
+
+.scroll-pane .jspArrowUp
+{
+	background-position: -.73vw -.3vw !important;
+}
+
+.scroll-pane .jspArrowDown
+{
+	background-position: -3.25vw -.4vw !important;
+}
+
+.jspArrowLeft
+{
+	background-position: -101px 0 !important;
+}
+
+.jspArrowRight
+{
+	background-position: -37px 0 !important;
+}
