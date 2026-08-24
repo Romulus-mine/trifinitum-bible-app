@@ -2,24 +2,30 @@
    1. ROOT VARIABLES & FONT FACES
    ================================================================ */
 @font-face {
-    font-family: 'Chiller Regular';
-    src:   url('fonts/CHILLER.ttf') format('truetype');
+    font-family: 'chillerregular';
+    src: url('chiller-webfont.woff2') format('woff2'),
+         url('chiller-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'Papyrus Regular';
-    src:   url('fonts/PAPYRUS.ttf') format('truetype');
+    font-family: 'felix_titlingregular';
+    src: url('felixti-webfont.woff2') format('woff2'),
+         url('felixti-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'Felix Titling Regular';
-    src:   url('fonts/FELIXTI.ttf') format('truetype');
+    font-family: 'papyrusregular';
+    src: url('papyrus-webfont.woff2') format('woff2'),
+         url('papyrus-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 :root {
@@ -653,7 +659,7 @@ SPAN.no {
 
 .quote-subtitle {
     font-size: 2vw; 
-    font-family: 'Chiller Regular', 'Papyrus Regular', 'Times New Roman', serif; 
+    font-family: 'chillerregular', 'Times New Roman', serif; 
     color: var(--gray-700);   
     font-weight: normal;
 }
@@ -661,7 +667,7 @@ SPAN.no {
 #discover {
     font-size: 1.4vw;
     cursor: pointer;
-    font-family: "Felix Titling Regular", serif;
+    font-family: "felix_titlingregular", serif;
     color: maroon;
 }
 #discover:hover {
@@ -884,7 +890,7 @@ DIV.cellspec { display: table-cell; width: 50%; border: 0 solid red; padding-lef
         }
 
         #quote-text {
-    font-family: "Chiller Regular", serif;
+    font-family: "chillerregular", serif;
     background: transparent; /* Ensures the text paragraph itself has no background */
     background-color: transparent;
     font-size: 1.8vw;
@@ -896,7 +902,7 @@ DIV.cellspec { display: table-cell; width: 50%; border: 0 solid red; padding-lef
         }
 
         #quote-author {
-    font-family: "Chiller Regular", serif;
+    font-family: "chillerregular", serif;
     background: transparent;
     font-size: 1.8vw;
     color: #333;
