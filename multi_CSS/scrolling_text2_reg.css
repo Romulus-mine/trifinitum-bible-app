@@ -3,8 +3,8 @@
    ================================================================ */
 @font-face {
     font-family: 'chillerregular';
-    src: url('chiller-webfont.woff2') format('woff2'),
-         url('chiller-webfont.woff') format('woff');
+    src: url('fonts/chiller-webfont.woff2') format('woff2'),
+         url('fonts/chiller-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,8 +12,8 @@
 
 @font-face {
     font-family: 'felix_titlingregular';
-    src: url('felixti-webfont.woff2') format('woff2'),
-         url('felixti-webfont.woff') format('woff');
+    src: url('fonts/felixti-webfont.woff2') format('woff2'),
+         url('fonts/felixti-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -21,8 +21,8 @@
 
 @font-face {
     font-family: 'papyrusregular';
-    src: url('papyrus-webfont.woff2') format('woff2'),
-         url('papyrus-webfont.woff') format('woff');
+    src: url('fonts/papyrus-webfont.woff2') format('woff2'),
+         url('fonts/papyrus-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
