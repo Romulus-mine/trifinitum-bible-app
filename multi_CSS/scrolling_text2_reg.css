@@ -1019,7 +1019,7 @@ footer {
 
 
 .modal-overlay2 {
-    position: fixed;
+    position: relative;  /* was fixed */
     top: 0;
     left: 0;
     width: 100%;
