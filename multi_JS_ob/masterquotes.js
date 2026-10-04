@@ -25,7 +25,7 @@
 			{ text: "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind.", author: "2 Timothy 1:7(KJV)" },
 			{ text: "He has dug a pit and hollowed it out, And has fallen into the hole which he made. His harm will return on his own head, And his violence will descend on the top of his own head.", author: "Psalm 7:15-16(NASB)" },
 			{ text: "He who is often reproved, yet stiffens his neck, will suddenly be broken beyond healing.", author: "Proverbs 29:1(NIV)" },
-			{ text: "So it is written, that the Christ would suffer and rise from the dead on the third day, and that repentance for forgiveness of sins would be proclaimed in His name to all the nations, beginning from Jerusalem.", author: "Luke 24:46-47(NASB)" }
+			{ text: "...repentance for forgiveness of sins would be proclaimed in His name to all the nations, beginning from Jerusalem.", author: "Luke 24:46-47(NASB)" }
         ];
 		
 
