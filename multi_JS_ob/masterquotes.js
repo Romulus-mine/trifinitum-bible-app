@@ -36,7 +36,7 @@
         const authorElement = document.getElementById("quote-author");
         const containerElement = document.getElementById("quote-container");
         
-        const displayTimeMs = 3000;
+        const displayTimeMs = 10000;
 
         function showNextQuote() {
             // If paused, skip changing the quote entirely until unpaused
